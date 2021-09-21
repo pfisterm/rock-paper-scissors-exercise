@@ -2,7 +2,7 @@ import random
 
 #Welcome
 print("Rock, Paper, Scissors, Shoot!")
-print("Welcome", player_name, "to my Rock-Paper-Scissors game ...")
+print("Welcome", {PLAYER_NAME}, "to my Rock-Paper-Scissors game ...")
 
 #User Choice
 user_choice = input("Please choose either 'rock', paper' or scissors:'")
