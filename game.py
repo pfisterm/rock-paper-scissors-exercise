@@ -2,27 +2,29 @@ import random
 
 #Welcome
 print("Rock, Paper, Scissors, Shoot!")
-print("Welcome 'Player One' to my Rock-Paper_Scissors game ...")
+print("Welcome", player_name, "to my Rock-Paper-Scissors game ...")
 
 #User Choice
 user_choice = input("Please choose either 'rock', paper' or scissors:'")
 
-if('rock' or 'paper' or 'scissors' in user_choice):
-    print(user_choice)
+if user_choice in ['rock', 'paper', 'scissors']:
+    print("You chose:" , user_choice)
 else:
+    print("Please try again. Choose either rock, paper, or scissors")
     quit()
 
 #Computer Choice at Random
 options = ['rock', 'paper', 'scissors']
 
 computer_choice = random.choice(options)
-print(computer_choice)
+print("The computer chose:" , computer_choice)
+
 
 #Determining the Winner
 if(computer_choice == 'rock' and user_choice == 'scissors'):
-    print("You won!")
+    print("Oh, the computer won. It's ok")
 elif(computer_choice == 'rock' and user_choice == 'paper'):
-    print("Oh, the computer won. It's ok.")
+    print("You won!")
 elif(computer_choice == 'rock' and user_choice == 'rock'):
     print("It's a tie!")
 elif(computer_choice == 'paper' and user_choice == 'scissors'):
