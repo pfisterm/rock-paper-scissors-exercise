@@ -1,6 +1,8 @@
 import random
 import os
 
+#I worked with Anthony and Jake and used the Professor's code from Slack
+    #for the environment variables
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -11,13 +13,12 @@ print("Rock, Paper, Scissors, Shoot!")
 
 print("-----------------------------")
 
-#I worked with Anthony and Jake and used the Professor's code from Slack
 print("Welcome,", x, ",to my Rock-Paper-Scissors game ...")
 
 print("-----------------------------")
 
 #User Choice
-user_choice = input("Please choose either 'rock', paper' or scissors:'")
+user_choice = input("Please choose either 'rock', 'paper' or 'scissors':")
 
 if user_choice in ['rock', 'paper', 'scissors']:
     print("You chose:" , user_choice)
