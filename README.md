@@ -1,17 +1,17 @@
 # rock-paper-scissors-exercise
 
-Set up the repository by downloading from GitHub
-Navigate to the respository from the command-line
+Clone the repository from GitHub and save onto your local device.
+Navigate to the respository from the command-line using the following code: <br>
+    ``` cd ~/Desktop/rock-paper-scissors-exercise ```
 
 # Third-Party Packages
-Follow the requirements.txt file to install the third-party packages required by the app.
-The following code will be required for installation:
-    ```pip install python-dotenv```
+Use the following code to install the third-party packages required by the app. <br>
+    ```pip install -r requirements.txt```
 
 # Environment Setup
-1. Create a project-specific environment. I titled my environment my-game-env using the following code
+1. Create a project-specific environment. I titled my environment my-game-env using the following code <br>
     ``` conda create my-game-env ```
-2. Activate the project-specific environment using the following code
+2. Activate the project-specific environment using the following code <br>
     ``` conda activate my-game-env ```
 
 # Environment Variables
@@ -21,5 +21,5 @@ The .env file should state:
 The user can customize the player name on the right side of the equal sign.
 
 # Run the App
-Once the setup is complete. Run the game.py file from the command line using the code 
+Once the setup is complete. Run the game.py file from the command line using the code <br>
     ```python game.py```
