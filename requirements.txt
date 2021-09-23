@@ -1,0 +1,4 @@
+
+This app uses a third-party package called python-dotenv.
+    python-dotenv # see: https://github.com/theskumar/python-dotenv
+    Follow the instructions given by the link to install properly
