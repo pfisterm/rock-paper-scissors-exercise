@@ -16,9 +16,9 @@ Use the following code to install the third-party packages required by the app. 
 
 # Environment Variables
 In the repository create a .env file. In the .env file create a variable titled PLAYER_NAME.
-The .env file should state:
-    PLAYER_NAME="Jon Snow"
-The user can customize the player name on the right side of the equal sign.
+The .env file should state: <br>
+    PLAYER_NAME="Jon Snow" <br>
+The user can customize the player name on the right side of the equal sign. Make sure to save the .env file prior to running the app.
 
 # Run the App
 Once the setup is complete. Run the game.py file from the command line using the code <br>
